@@ -1,29 +1,30 @@
+/* removes margins */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* set background color to off-white */
 body {
     background-color: #d9dcd6;
 }
-
+/* sets font family, background color and text color for the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* sets h1 elements font size in header and to display inline */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* changes part of company names' (seo) color*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* sets navigation elements' font family & size, adds margin, and floats them to the right */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +32,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* sets no item marker */
 .header nav ul {
     list-style-type: none;
 }
-
+/* displays nav elements in a line */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* sets nav links to be white and no underline*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* sets section articles font size */
 p {
     font-size: 16px;
 }
-
+/* links and formats main image (team huddled around desk) */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +59,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* sets margin and fontsize for section titles */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -73,7 +74,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* floats images orientation*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -89,66 +90,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* formats section texts' font family, background color, text color, man margins */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -175,7 +117,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* sets max height for section images */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -188,13 +130,73 @@ p {
     max-height: 200px;
 }
 
+/* creates aside section box and formats the border, font family, and background color */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* sets aside section margins and text color */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* sets aside section titles margin and centers them*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* formats aside section images and centers them */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* sets footer font family, padding, and orientation */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* adjusts footer text size */
 .footer h4 {
     font-size: 20px;
 }
