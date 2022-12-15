@@ -1,9 +1,9 @@
 # Tabel of Contents
-## Header
-## Description
-## Preview
-## Link
-## License
+1. [Header](#unit-1-challenge)
+2. [Description](#description)
+3. [Preview](#preview)
+4. [Link](#link)
+5. [License](#license)
 #
 # Unit-1-challenge
 ## Description
